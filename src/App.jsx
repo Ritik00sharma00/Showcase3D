@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home';
 import LoginForm from './Components/LoginForm';
-import VisualizerScreen from './Components/Visualizerscreen';
+import VisualizerScreen from './Components/VisualizerScreen';
 import { ToastContainer } from 'react-toastify';
 import { AuthProvider } from './Services/AuthContext';
 import Protectedroute from './Services/Protectedroute';
