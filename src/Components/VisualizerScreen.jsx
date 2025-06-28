@@ -493,7 +493,7 @@ const VisualizerScreen = () => {
         });
         fetchLibraryFiles();
         alert("File uploaded successfully.");
-        window.location.reload(); // Reload to update the library
+        // Reload to update the library
       } catch (err) {
         console.error("Upload Error:", err);
       } finally {
