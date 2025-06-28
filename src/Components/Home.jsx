@@ -1,6 +1,6 @@
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import * as React from 'react';
-import backgroundImage from '../assets/Image.png';
+import backgroundImage from '../assets/image.png';
 import LoginForm from './LoginForm';
 import Signup from './Signup';
 
