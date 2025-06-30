@@ -388,9 +388,9 @@ class ErrorBoundary extends React.Component {
     console.error("Canvas Error:", error, info);
   }
   render() {
-    if (this.state.hasError) {
-      return <h2>Something went wrong while loading the 3D Canvas.</h2>;
-    }
+    // if (this.state.hasError) {
+    //   return <h2>Something went wrong while loading the 3D Canvas.</h2>;
+    // }
     return this.props.children;
   }
 }
